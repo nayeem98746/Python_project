@@ -3,7 +3,7 @@ from django.http import HttpResponse
 from django.views import View
 
 def hellow_world(request): 
-    return HttpRespons("Hello world")
+    return HttpResponse("Hello world")
 
 class HellowEthiopia(View):
     def get(self ,  request):
