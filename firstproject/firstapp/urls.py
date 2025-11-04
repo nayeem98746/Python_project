@@ -5,4 +5,3 @@ urlpatterns = [
     path('function' , views.hellow_world),
     path('class' , views.HellowEthiopia.as_view()),
 ]
-
